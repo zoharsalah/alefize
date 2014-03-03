@@ -1,6 +1,6 @@
 {
   "name": "Alefize Wikipedia",
-  "description": "Switch all fonts on Wikipedia to Alef.",
+  "description": "Switch all fonts on Wikipedia to Alef & click to make paragraphs red.",
   "version": "1.0",
 
   "permissions": [
@@ -9,6 +9,7 @@
 
   "content_scripts": [{
     "matches": ["*://*.wikipedia.org/*"],
+    "js": ["jquery-1.10.2.min.js","example.js"],
     "css": ["alef.css"]
   }],
 
