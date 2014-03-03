@@ -1,0 +1,9 @@
+@import url(//fonts.googleapis.com/earlyaccess/alefhebrew.css);
+
+* { 
+  font-family: "Alef Hebrew" !important;
+}
+
+#content {
+	font-size: 1.2em;
+}

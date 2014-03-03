@@ -1,0 +1,16 @@
+{
+  "name": "Alefize",
+  "description": "Switch all fonts to Alef.",
+  "version": "1.0",
+
+  "permissions": [
+    "activeTab"
+  ],
+
+  "content_scripts": [{
+    "matches": ["http://*/*"],
+    "css": ["alef.css"]
+  }],
+
+  "manifest_version": 2
+}
